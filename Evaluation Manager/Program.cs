@@ -16,7 +16,6 @@ namespace Evaluation_Manager
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-          //  DBLayer.DB.SetConfiguration("EvaluationManager", "Username", "Password");
             Application.Run(new FrmLogin());
         }
     }
